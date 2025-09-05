@@ -1655,5 +1655,9 @@ h1 {
       font-size: 2em;
   }
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 /* Agregar mais estilos se quiser  */
