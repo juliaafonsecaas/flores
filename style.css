@@ -3,15 +3,16 @@
     font-family: 'Poppins',cursive;
 }
 body{
-    color: azure;
+   color: azure;
     width: 100%;
-    height: 82vh;
+    height: 100vh;
+    margin: 0; /* garante que não tem espaço branco */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: black;
-    /* padding-top: -30; */
+    overflow: hidden; 
 }
 
 .botones{
